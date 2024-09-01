@@ -71,8 +71,9 @@ function Footer() {
             </Text>
         </Flex>
         <Flex gap={2}>
-        <Input _placeholder={{color:"gray.200"}} placeholder='Subscribe to our Newsletter' type="text" w={"90%"} />
-        <Button colorScheme='red'>Subscribe</Button>
+        {/* <Input _placeholder={{color:"gray.200"}} placeholder='Subscribe to our Newsletter' type="text" w={"90%"} /> */}
+        <Button colorScheme='red'>Contact Us</Button>
+        <Button colorScheme='red'> <Link to={"/"}>Home</Link>  </Button>
         </Flex>
       </Flex>
     </Box>

@@ -250,7 +250,7 @@ const CartPage = () => {
                 <DropIn
                   options={{
                     authorization: clientToken,
-                    paypal: { flow: "vault" },
+                    // Removed PayPal option to exclude it from the DropIn
                   }}
                   onInstance={(instance) => setInstance(instance)}
                 />

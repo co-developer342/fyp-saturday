@@ -34,6 +34,8 @@ const Profile = () => {
         phone,
         address,
       });
+      console.log(data);
+      
       if (data?.errro) {
         toast.error(data?.error);
       } else {
